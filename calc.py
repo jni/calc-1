@@ -1,4 +1,10 @@
 def compute(input_string):
+    """
+    This is my docstring for this function. I don't
+    feel like writing much here.
+    """
+
+
     values = input_string.split(' ')
     num0 = int(values[0])
     num1 = int(values[2])
@@ -9,8 +15,4 @@ def compute(input_string):
         return num0 - num1
     else:
         raise ValueError('Unknown operator!')
-
-print(compute('1 + 5'))
-print(compute('1 - 5'))
-print(compute('1 / 4'))
 
