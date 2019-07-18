@@ -1,13 +1,14 @@
 def compute(input_string):
-    """
-    This is my docstring for this function. I don't
-    feel like writing much here.
+    """Simple calculator.
+
+    Supports all basic operators and both integer and
+    floating point numbers.
     """
 
 
     values = input_string.split(' ')
-    num0 = int(values[0])
-    num1 = int(values[2])
+    num0 = float(values[0])
+    num1 = float(values[2])
     operator = values[1]
     if operator == '+':
         return num0 + num1
