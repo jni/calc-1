@@ -8,9 +8,7 @@ def compute(input_string):
     elif operator == '-':
         return num0 - num1
     else:
-        raise ValueError('Unknown operator!')
+        raise ValueError(f'Unknown operator: {operator}!')
 
-print(compute('1 + 5'))
-print(compute('1 - 5'))
+
 print(compute('1 / 4'))
-
