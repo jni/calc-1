@@ -13,6 +13,8 @@ def compute(input_string):
         return num0 + num1
     elif operator == '-':
         return num0 - num1
+    elif operator == '*':
+        return num0 * num1
     else:
         raise ValueError(f'Unknown operator: {operator}!')
 
