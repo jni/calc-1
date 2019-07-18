@@ -1,7 +1,8 @@
 def compute(input_string):
-    """
-    This is my docstring for this function. I don't
-    feel like writing much here.
+    """Simple calculator.
+
+    Supports all basic operators and both integer and
+    floating point numbers.
     """
 
 
